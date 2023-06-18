@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "header for self",
   "author": "changeyoucant <353616901@qq.com>",
-  "homepage": "",
   "license": "ISC",
   "main": "index.esm.js",
   "type": "module",
