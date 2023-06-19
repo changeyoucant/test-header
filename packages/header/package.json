@@ -4,7 +4,7 @@
   "description": "header for self",
   "author": "changeyoucant <353616901@qq.com>",
   "license": "ISC",
-  "main": "index.esm.js",
+  "main": "./lib/index.esm.js",
   "type": "module",
   "directories": {
     "lib": "lib",
