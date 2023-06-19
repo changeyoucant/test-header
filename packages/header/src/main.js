@@ -1,4 +1,3 @@
-console.log('header')
-export default {
-  value: 2,
+export function addNumbers(a, b) {
+  return a + b
 }

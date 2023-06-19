@@ -10,5 +10,15 @@ export default {
     name: 'wdx_header',
     inlineDynamicImports: true,
   },
-  plugins: [resolve(), commonjs()],
+  plugins: [
+    json(),
+    resolve({
+      extensions: ['.js', '.json', '.ts'],
+    }),
+    commonjs(),
+    babel({
+      babelHelpers: 'bundled',
+      presets: ['@babel/preset-env'],
+    }),
+  ],
 }
