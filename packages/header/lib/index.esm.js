@@ -1,6 +1,5 @@
-console.log('header');
-var main = {
-  value: 2,
-};
+function addNumbers(a, b) {
+  return a + b;
+}
 
-export { main as default };
+export { addNumbers };

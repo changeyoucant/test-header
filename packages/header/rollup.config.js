@@ -1,6 +1,7 @@
 // my-app/rollup.config.js
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
+import { babel } from '@rollup/plugin-babel'
 
 export default {
   input: 'src/main.js',
@@ -11,7 +12,7 @@ export default {
     inlineDynamicImports: true,
   },
   plugins: [
-    json(),
+    // json(),
     resolve({
       extensions: ['.js', '.json', '.ts'],
     }),
